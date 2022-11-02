@@ -1,0 +1,3 @@
+0
+contentful.DELIVERY.qz0n5cdakyl9.master.ContentType.lesson.__ALL__
+s:692:"{"sys":{"id":"lesson","type":"ContentType","revision":2,"createdAt":"2017-11-08T16:06:27.042Z","updatedAt":"2017-11-22T12:55:20.215Z","environment":{"sys":{"type":"Link","id":"master","linkType":"Environment"}},"space":{"sys":{"type":"Link","id":"qz0n5cdakyl9","linkType":"Space"}}},"name":"Lesson","description":"A educational lesson, representing one section of a course.","displayField":"title","fields":[{"id":"title","name":"Title","type":"Symbol","required":true,"localized":true},{"id":"slug","name":"Slug","type":"Symbol","required":true,"localized":false},{"id":"modules","name":"Modules","type":"Array","required":true,"localized":false,"items":{"type":"Link","linkType":"Entry"}}]}";

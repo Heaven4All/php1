@@ -1,0 +1,3 @@
+0
+contentful.DELIVERY.qz0n5cdakyl9.master.ContentType.category.__ALL__
+s:608:"{"sys":{"id":"category","type":"ContentType","revision":2,"createdAt":"2017-11-08T16:06:16.631Z","updatedAt":"2017-11-15T16:06:49.101Z","environment":{"sys":{"type":"Link","id":"master","linkType":"Environment"}},"space":{"sys":{"type":"Link","id":"qz0n5cdakyl9","linkType":"Space"}}},"name":"Category","description":"Categories can be applied to Courses and Lessons. Assigning Multiple categories is also possible.","displayField":"title","fields":[{"id":"title","name":"Title","type":"Symbol","required":true,"localized":true},{"id":"slug","name":"Slug","type":"Symbol","required":true,"localized":false}]}";

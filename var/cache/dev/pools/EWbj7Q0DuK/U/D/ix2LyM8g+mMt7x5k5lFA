@@ -1,0 +1,3 @@
+0
+contentful.DELIVERY.qz0n5cdakyl9.master.ContentType.lessonImage.__ALL__
+s:668:"{"sys":{"id":"lessonImage","type":"ContentType","revision":1,"createdAt":"2017-11-08T16:06:22.406Z","updatedAt":"2017-11-08T16:06:22.406Z","environment":{"sys":{"type":"Link","id":"master","linkType":"Environment"}},"space":{"sys":{"type":"Link","id":"qz0n5cdakyl9","linkType":"Space"}}},"name":"Lesson > Image","description":"An image to be used as a module in a lesson.","displayField":"title","fields":[{"id":"title","name":"Title","type":"Symbol","required":true,"localized":false},{"id":"image","name":"Image","type":"Link","required":true,"localized":false,"linkType":"Asset"},{"id":"caption","name":"Caption","type":"Symbol","required":false,"localized":true}]}";

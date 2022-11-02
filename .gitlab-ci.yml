@@ -1,0 +1,27 @@
+stages:
+- build
+- scan
+
+build:
+  stage: build
+  image: composer:2.0.4
+  tags:
+    - linux
+  script: 
+  - composer install
+
+  artifacts:
+    paths:
+    - ./
+    expire_in: 1 day
+
+debricked:
+  stage: scan
+  tags:
+    - linux
+  image:
+    name: debricked/debricked-scan
+    entrypoint: ["/gitlab-ci.sh"]
+  script: echo "Done"
+  variables:
+    DEBRICKED_TOKEN: $DEBRICKED_TOKEN

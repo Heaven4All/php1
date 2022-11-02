@@ -1,0 +1,3 @@
+0
+contentful.DELIVERY.qz0n5cdakyl9.master.ContentType.lessonCopy.__ALL__
+s:557:"{"sys":{"id":"lessonCopy","type":"ContentType","revision":2,"createdAt":"2017-11-08T16:06:23.545Z","updatedAt":"2017-11-09T09:44:58.462Z","environment":{"sys":{"type":"Link","id":"master","linkType":"Environment"}},"space":{"sys":{"type":"Link","id":"qz0n5cdakyl9","linkType":"Space"}}},"name":"Lesson > Copy","description":"A markdown module to be used in a lesson.","displayField":"title","fields":[{"id":"title","name":"Title","type":"Symbol","required":true,"localized":false},{"id":"copy","name":"Copy","type":"Text","required":true,"localized":true}]}";
